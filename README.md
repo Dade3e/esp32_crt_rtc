@@ -1,4 +1,4 @@
-# ERP32 crt rtc
+# ESP32 crt rtc
 
 ## HARDWARE
 Ho usato un crt M01JVV47WB di una videocamera che ho trovato a casa
