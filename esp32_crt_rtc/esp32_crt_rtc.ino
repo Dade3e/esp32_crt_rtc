@@ -23,7 +23,6 @@ int stato_tmp = stato;
 
 void setup() {
   videoOut.begin();
-  Serial.begin(115200);
 
   rtc.setTime(0, 0, 13, 2, 2, 2023);  // s m h d m y
 
