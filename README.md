@@ -1,5 +1,7 @@
 # ESP32 crt rtc
 
+![esp32_crt_date](https://github.com/Dade3e/esp32_crt_rtc/blob/main/img/crt_date.jpeg)
+
 ## HARDWARE
 Ho usato un crt M01JVV47WB di una videocamera che ho trovato a casa
 
@@ -14,4 +16,4 @@ e la libreria ESP32Time.h per la parte rtc.
 Per il set Data e Ora, ho usato i pin touch 4 e 27 
 
 
-![esp32_crt_date](https://github.com/Dade3e/esp32_crt_rtc/blob/main/img/crt_date.jpeg)
+
