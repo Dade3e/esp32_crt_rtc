@@ -204,7 +204,7 @@ void setTime(){
 
   waitRelease();
 
-  rtc.setTime(0, tmp_min, tmp_h, rtc.getDay(), rtc.getMonth(), rtc.getYear());
+  rtc.setTime(0, tmp_min, tmp_h, rtc.getDay(), rtc.getMonth() + 1, rtc.getYear());
 }
 
 void setDate(){
