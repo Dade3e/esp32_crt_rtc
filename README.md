@@ -12,3 +12,6 @@ Ho usato la libreria ESP_8_BIT_composite (https://github.com/Roger-random/ESP_8_
 e la libreria ESP32Time.h per la parte rtc.
 
 Ho usato la ide arduino e funziona.
+
+
+![esp32_crt_date](https://github.com/Dade3e/esp32_crt_rtc/blob/main/img/crt_date.jpeg)
