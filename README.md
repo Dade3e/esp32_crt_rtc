@@ -12,9 +12,3 @@ Ho usato la libreria ESP_8_BIT_composite (https://github.com/Roger-random/ESP_8_
 e la libreria ESP32Time.h per la parte rtc.
 
 Ho usato la ide arduino e funziona.
-
-## AGGIUNTE
-
-Da inserire il set ora magari touch
-
-
