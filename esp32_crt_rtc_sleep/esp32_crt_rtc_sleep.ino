@@ -21,6 +21,8 @@ int stato = 1;
 
 int stato_tmp = stato;
 
+int en_display = 26;
+
 
 void callback(){
   //placeholder callback function
@@ -30,7 +32,7 @@ void setup() {
   if(bootCount == 0)
     rtc.setTime(0, 11, 16, 3, 2, 2023);
   ++bootCount;
-
+  pinMode(en_display, OUTPUT);
   videoOut.begin();
   
   videoOut.setTextColor(0xFF);
@@ -46,7 +48,7 @@ void setup() {
   //Configure Touchpad as wakeup source
   esp_sleep_enable_touchpad_wakeup();
 
-
+  pinMode(en_display, INPUT);
 
   esp_deep_sleep_start();
 }
@@ -56,6 +58,7 @@ void loop(){
 }
 
 void orologio() {
+  digitalWrite(en_display, HIGH);
   while(stato != 0){
 
     if(stato == 1){
@@ -111,7 +114,7 @@ void orologio() {
     }
     delay(100);
   }
-
+  digitalWrite(en_display, LOW);
 
 }
 
